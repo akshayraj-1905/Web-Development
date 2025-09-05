@@ -1,0 +1,107 @@
+
+
+body{
+    text-align: center;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Asimovian", sans-serif;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 20%;
+}
+
+.red {
+    background-color: #d95980;
+}
+.purple {
+    background-color: #819ff9;
+}
+.green {
+    background-color: #32ed7d;
+}
+.yellow {
+    background-color: #f99b45;
+}
+
+.gameFlash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: grey;
+}
+
+.gameOver{
+    background-color: red;
+}
+
+.start-btn {
+    font-family: "Asimovian", sans-serif;
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: rgb(232, 218, 24);
+    font-weight: bold;
+}
+
+
+/* Default (desktop & large screens) already in your code */
+
+/* Tablet screens (up to 1024px wide) */
+@media (max-width: 1024px) {
+    .btn {
+        height: 150px;
+        width: 150px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .start-btn {
+        width: 120px;
+        height: 45px;
+    }
+}
+
+/* Mobile screens (up to 600px wide) */
+@media (max-width: 600px) {
+    .btn {
+        height: 120px;
+        width: 120px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .start-btn {
+        width: 100px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+}
