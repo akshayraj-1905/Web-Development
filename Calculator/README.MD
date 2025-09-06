@@ -1,5 +1,7 @@
 # 🧮 Calculator App
 
+link - https://calculatorbyakshayraj.netlify.app/
+
 A simple **Calculator App** built with **HTML, CSS, and JavaScript**.  
 It supports **button clicks** only for performing calculations.
 
